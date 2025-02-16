@@ -2,7 +2,7 @@
 
 # Make Deb Package for Zphisher (^.^)
 _PACKAGE=zphisher
-_VERSION=2.3.5
+_VERSION=3.5
 _ARCH="all"
 PKG_NAME="${_PACKAGE}_${_VERSION}_${_ARCH}.deb"
 
@@ -32,7 +32,7 @@ Version: ${_VERSION}
 Architecture: ${_ARCH}
 Maintainer: @htr-tech
 Depends: ${_depend}
-Homepage: https://github.com/htr-tech/zphisher
+Homepage: https://github.com/Illegal2/Jjjokkmnmod.git
 Description: An automated phishing tool with 30+ templates. This Tool is made for educational purpose only !
 CONTROL_EOF
 
