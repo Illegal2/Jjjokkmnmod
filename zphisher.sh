@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.3.5
-##   Github 	: 	https://github.com/htr-tech/zphisher
+##   JTH MOD	: 	Automated Phishing Tool
+##   Author 	: 	JOKER MOD
+##   Version 	: 	3.5
+##   Github 	: 	https://github.com/Illegal2/Jjjokkmnmod.git
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -90,7 +90,7 @@
 ##   TheLinuxChoice - https://twitter.com/linux_choice
 
 
-__version__="2.3.5"
+__version__="3.5"
 
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
@@ -213,7 +213,7 @@ banner() {
 		${ORANGE}      | |                                
 		${ORANGE}      |_|                ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (JOKER MOD)${WHITE}
 	EOF
 }
 
@@ -349,13 +349,12 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
+		${GREEN} Author   ${RED}:  ${ORANGE} JOKER MOD ${RED}[ ${ORANGE}HTR-TECH ${RED}]
+		${GREEN} Telegram   ${RED}:  ${CYAN} https://t.me/+dQ3TyitUfjkyYzE0
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}
-		${CYAN}  This Tool is made for educational purpose 
+		${CYAN}  Bu Araç eğitim amaçlı yapılmıştır 
 		  only ${RED}!${WHITE}${CYAN} Author will not be responsible for 
 		  any misuse of this toolkit ${RED}!${WHITE}
 		
